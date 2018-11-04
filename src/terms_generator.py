@@ -36,4 +36,3 @@ class TermsGenerator:
 		first_term = random.choice(self.forma1[term_gender])
 		second_term = random.choice(self.forma2[term_gender])
 		return ' '.join([first_term, second_term])
-
